@@ -81,16 +81,21 @@ body {
 
 .date-text {
 	margin-top: 70px;
+	font-size: 10px;
+	font-weight: bold;
 }
 
 .note {
 	text-align: center;
-
+	font-size: 10px;
+	font-weight: bold;
 }
 
 .location {
 	text-align: center;
 	margin-top: 50px;
+	font-size: 10px;
+	font-weight: bold;
 }
 
 .fa-map-marker-alt{
@@ -111,12 +116,12 @@ body {
     }
 
     .upload-area {
-        width: 150px; /* Smaller size for mobile */
-        height: 150px;
+        width: 200px; /* Smaller size for mobile */
+        height: 200px;
     }
 
     .upload-area p {
-        margin-top: 65px; /* Adjusted for smaller circle */
+        margin-top: 100px; /* Adjusted for smaller circle */
         font-size: 14px; /* Slightly smaller text */
     }
 
@@ -129,7 +134,7 @@ body {
     }
 
     .location {
-        margin-top: 30px; /* Reduced margin */
+        margin-top: 10px; 
     }
 
     .photo {
