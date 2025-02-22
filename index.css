@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #f0f0f0; */
+    font-family: "Poppins", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	
+}
+
+#flyer-container {
+	background: linear-gradient(to right, #232124, #978997);
+	padding: 30px;
+}
+
+.flyer-background h1 {
+	font-size: 25px;
+	text-align: center;
+	font-family: "Piedra", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.theme {
+	text-align: center;
+	font-size: 16px;
+	color: #aea6b1;
+}
+
+.text {
+	text-align: center;
+	font-style: italic;
+	color: #292100;
+}
+
+.photo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.upload-area {
+    width: 200px;
+    height: 200px;
+    border: 3px dashed #FFD700; 
+    background-color: rgba(96, 3, 3, 0.1);
+    color: #151200;
+    cursor: pointer;
+    z-index: 3;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease; 
+}
+
+.upload-area:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #FACC15; 
+}
+
+.upload-area p {
+	margin-top: 90px;
+	color: whitesmoke;
+}
+
+.text-area {
+	/* margin-top: 100px; */
+	font-style: oblique;
+	position: relative;
+	color: antiquewhite;
+	font-family: "Piedra", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.date-text {
+	margin-top: 70px;
+}
+
+.note {
+	text-align: center;
+
+}
+
+.location {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.fa-map-marker-alt{
+	color: red;
+}
+
+.fa-sticky-note {
+	color: blue;
+}
+
+.fa-calendar-alt{
+	color: brown;
+}
+
+@media screen and (max-width: 768px) {
+    #flyer-container {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    .upload-area {
+        width: 150px; /* Smaller size for mobile */
+        height: 150px;
+    }
+
+    .upload-area p {
+        margin-top: 65px; /* Adjusted for smaller circle */
+        font-size: 14px; /* Slightly smaller text */
+    }
+
+    .text-area {
+        margin-top: 15px; 
+    }
+
+    .date-text {
+        margin-top: 10px; 
+    }
+
+    .location {
+        margin-top: 30px; /* Reduced margin */
+    }
+
+    .photo {
+        flex-direction: column; /* Stack photos vertically on mobile */
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .upload-area {
+        width: 120px; /* Even smaller for very small screens */
+        height: 120px;
+    }
+
+    .upload-area p {
+        margin-top: 50px;
+        font-size: 12px;
+    }
+
+    #flyer-container {
+        padding: 15px;
+    }
+
+    .text {
+        font-size: 14px; /* Smaller text for mobile */
+    }
+
+	
+}
