@@ -16,7 +16,7 @@ body {
 }
 
 #flyer-container {
-	background: linear-gradient(to right, #232124, #978997);
+	background: linear-gradient(to right, #838283, #919091);
 	padding: 30px;
 }
 
@@ -31,13 +31,13 @@ body {
 .theme {
 	text-align: center;
 	font-size: 16px;
-	color: #aea6b1;
+	color: #0f0114;
 }
 
 .text {
 	text-align: center;
 	font-style: italic;
-	color: #292100;
+	color: #413401;
 }
 
 .photo {
